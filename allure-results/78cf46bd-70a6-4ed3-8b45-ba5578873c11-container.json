@@ -1,0 +1,1 @@
+{"uuid":"78cf46bd-70a6-4ed3-8b45-ba5578873c11","name":"DoctrinFireFoxTest","children":["7022e609-5c74-4ba9-992d-0d4bbd807d37"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1592237645174,"stop":1592237645602}],"afters":[],"links":[],"start":1592237645174,"stop":1592237646479}

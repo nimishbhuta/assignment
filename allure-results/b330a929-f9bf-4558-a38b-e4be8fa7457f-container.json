@@ -1,0 +1,1 @@
+{"uuid":"b330a929-f9bf-4558-a38b-e4be8fa7457f","name":"DoctrinChromeTest","children":["d212d3dd-d40c-446e-8eb5-c5691378e8f1"],"befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1592233604405,"stop":1592233611270}],"afters":[],"links":[],"start":1592233604393,"stop":1592233611422}

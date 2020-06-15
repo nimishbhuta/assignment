@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Doctrin Automation Suite]" parallel="none">
+  <parameter name="browser" value="firefox"/>
+  <listeners>
+    <listener class-name="se.doctrin.utils.TestNGListener"/>
+  </listeners>
+  <test name="DoctrinFireFoxTest(failed)" parallel="none">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="se.doctrin.tests.CareerPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="getNameAndTitle"/>
+        </methods>
+      </class> <!-- se.doctrin.tests.CareerPageTest -->
+    </classes>
+  </test> <!-- DoctrinFireFoxTest(failed) -->
+</suite> <!-- Failed suite [Doctrin Automation Suite] -->

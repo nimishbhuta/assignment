@@ -1,0 +1,29 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Doctrin Automation Suite">
+
+  <listeners>
+	    <listener class-name="se.doctrin.utils.TestNGListener" />
+	    
+  </listeners>	
+
+	<test name="DoctrinChromeTest" preserve-order="true">
+	  <parameter name="browser" value="chrome"/>
+	    <classes>
+	       <class name="se.doctrin.tests.CareerPageTest"/>  
+	    </classes>
+	  </test>
+	  
+
+  	<test name="DoctrinFireFoxTest" preserve-order="true">
+  <parameter name="browser" value="firefox"/>
+    <classes>
+       <class name="se.doctrin.tests.CareerPageTest"/>  
+    </classes>
+  </test>
+
+  
+  
+  
+  
+</suite>
